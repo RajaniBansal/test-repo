@@ -9,6 +9,6 @@ jobs:
       pull-requests: write
     steps:
       - name: first
-        uses: SuneetBansal/ai-driven-pr-review@main
+        uses: RajaniBansal/ai-review@main
         with:
           openai-key: ${{ secrets.OPENAI_API_KEY }}
